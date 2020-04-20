@@ -21,13 +21,13 @@
 title: "NewRowOne's Blog"
 email: kkycj@vip.qq.com
 description: "Hello Word!"
-baseurl: "/blog"
+baseurl: 
 url: "kkycj.github.io"
 twitter_username: 
 github_username:  kkycj
 
 # Build settings
-theme: jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
   - jekyll-feed
 
