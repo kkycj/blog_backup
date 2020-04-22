@@ -8,7 +8,6 @@ tags:
   - PaddlePaddle
   - 环境配置
 ---
-
 记录一次在Ubuntu18.04系统安装PaddlePaddle的过程经历。
 
 ### Ubuntu18.04 安装PaddlePaddle
