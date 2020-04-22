@@ -11,7 +11,6 @@ tags:
 记录一次在Ubuntu18.04系统安装PaddlePaddle的过程经历。
 
 ### Ubuntu18.04 安装PaddlePaddle
-
 ----
 
 #### 环境配置
@@ -107,7 +106,6 @@ tags:
     如果在import时提示`Compiled with WITH_GPU, but no GPU found in runtime.`，很有可能是安装完CUDA和cudnn后没有重启，重启过后即可成功验证
 
 ### PaddleSeg配置实践
-
 ----
 
 #### 安装下载
@@ -143,7 +141,6 @@ tags:
     $ sudo -H pip3 install --ignore-installed PyYAML
     ```
 
-----
 
 #### 测试运行
 
