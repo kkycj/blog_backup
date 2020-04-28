@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-暂无
+这个人很懒，什么都没有写。
+This is a lazy guy, and nothing to say.
