@@ -18,22 +18,14 @@ tags:
   - 在会话中输入命令，启动程序
   - Ctrl +a ,d返回主窗口 
 
- 
-
 - Screen –r name 
   - 继续会话 
-
- 
 
 - Screen 中exit 
   - 退出会话 
 
- 
-
 - Screen –ls 
   - 查看当前存在会话 
-
- 
 
 - Screen –d 
   - 将指定窗口离线 
