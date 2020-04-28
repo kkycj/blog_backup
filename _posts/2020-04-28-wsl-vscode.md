@@ -32,7 +32,7 @@ tags:
 
     解压完毕后，会从Win10的窗口打开VS Code，并在右下角显示WSL: Ubuntu-18.04
 
-        ![wsl-corner](/assets/images/2020-04-28-wsl-vscode/wsl-corner.png)
+    ![wsl-corner](/assets/images/2020-04-28-wsl-vscode/wsl-corner.png)
 
     之后便可以直接访问子系统下的目录，进行操作了
 
