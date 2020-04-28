@@ -9,11 +9,9 @@ tags:
   - GitHub
   - VSCode
 ---
-
 之前的文章中提到我们用Win10下的Ubuntu子系统作为管理个人网站的系统平台，但是由于WSL（Windows Subsystem for Linux）中默认的权限在码代码或者使用git的过程中会出现很多问题，频繁的更改权限也很麻烦。使用VS Code中的WSL插件，就可以很方便的解决这个问题，快乐地改代码。
 
 ### 用VS Code编辑个人网页内容并用git同步到GitHub
-
 ---
 
 #### 安装VS Code

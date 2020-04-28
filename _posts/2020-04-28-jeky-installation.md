@@ -13,7 +13,6 @@ tags:
 第一次搭建个人网页用的GitHub Pages + jekyll的框架，平时在家还是用windows系统多一些，于是打算用Win10的Ubuntu18.04子系统来作为管理个人网页的系统平台。本篇简单记录了从现有的GitHub仓库克隆到本地WSL目录并初始化的一些内容。
 
 ### jekyll 安装以及环境配置
-
 ---
 
 全文参考jekyll[官方文档](https://jekyllrb.com/docs/)进行安装配置
