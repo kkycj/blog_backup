@@ -5,10 +5,11 @@ alt_title: "NewRowOne的博客"
 sub_title: "随便写写"
 image: /assets/images/firewatch.jpg
 introduction: |
+	很懒，很早就想找一个地方记录一些曾经学习过的东西，分享给别人自己踩坑的经历，顺便强迫自己梳理掌握的内容。无奈没有毅力，零零散散的想到就记录下来。
+
 	- 筑波大学iit修士M2在读
 	- Tsukuba,JP
   	- 目前所属：[制御・ロボティクス研究室](http://cr.iit.tsukuba.ac.jp/)
 	- 感兴趣方向：VSLAM，语义SLAM，移动机器人
 
-	很懒，很早就想找一个地方记录一些曾经学习过的东西，分享给别人自己踩坑的经历，顺便强迫自己梳理掌握的内容。无奈没有毅力，零零散散的想到就记录下来。
 ---
