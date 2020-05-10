@@ -12,8 +12,9 @@ tags:
 ---
 锈湖系列五周年，在steam平台和移动平台推出了一款免费游戏Samsara Room。个人很喜欢锈湖系列的解谜游戏，整个系列的作品都围绕一个炼金术士想要制作出长生不老药的故事展开。我是在锈湖的Hotel入坑的，马上被这个神秘风格的解谜游戏吸引了，几乎补完了包括前作的Cube Escape系列所有作品。个人认为这一作Samsara Room的游戏体验要比上一作The White Door更加出色。
 
-![title](/assets/images/samsara/title.jpg)
 # Samsara Room 文字攻略
+
+![title](/assets/images/samsara/title.jpg)
 
 ## 剧情流程
 
