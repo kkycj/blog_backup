@@ -30,7 +30,7 @@ tags:
 
 5. 回到有镜子的墙面，桌上有一份信，用刚拿到的**小刀**，打开信封，看到和游戏刚开始时一样的图形，暗示了游戏的几个重要道具。记住信纸上方的这句“enlighten me”。
 
-![cg](/assets/images/samsara/cg.jpg)
+  ![cg](/assets/images/samsara/cg.jpg)
 
 6. 拿起旁边的电话，飞出一堆看似杂乱无章的字母，按字母顺序拼出信纸上的“enlighten me”，掉出一盒**火柴**。（这里“enlighten me”隐藏了双关语，字面有启迪我让我重生的意思，"lighten"也NETA了点火的火柴。）
 
@@ -74,7 +74,7 @@ tags:
 
 6. 向右转，点击倒挂的书架，后面藏了第四粒**弹珠**。接下来要玩一个类似华容道的解谜游戏，唯一不同的是你可以拿走任意位置的书，只要能有地方放。书架背景的红色边框提示要把书垒成这个形状，并且左上角那本带***“S”***符号的书要放在最中间的位置。要注意由于主角是倒挂的，拿走最上方的书，下面垒的书会往上（xia）掉。解谜不算很难，花点时间总能过，可以直接按照如图所示的形状摆好。完成后最中间的书会动起来，点击后书飞了出去。
 
-![book](/assets/images/samsara/book.jpg)
+  ![book](/assets/images/samsara/book.jpg)
 
 7. 回到炼金台，把四粒**弹珠**摆上，把**壁虎**换成鱼，进入鱼世界。
 
@@ -115,11 +115,11 @@ tags:
 
 5. 向右转，很费力的把电话的话筒弄下来。用**小刀**拧开电话听筒的螺丝。如图连通话筒的线路，点击扬声器，掉落第三瓣**花瓣**。
 
-![phone](/assets/images/samsara/telephone.jpg)
+  ![phone](/assets/images/samsara/telephone.jpg)
 
-5. 向右转，地上Samsara的笔记里夹了最后一片**花瓣**，用**小刀**把书撑起来，拿到最后的**花瓣**。
+6. 向右转，地上Samsara的笔记里夹了最后一片**花瓣**，用**小刀**把书撑起来，拿到最后的**花瓣**。
 
-6. 回到炼金台，摆上蛋，进入最后的飞升阶段。
+7. 回到炼金台，摆上蛋，进入最后的飞升阶段。
 
 ### 蛋
 
@@ -173,9 +173,9 @@ tags:
 
 2. 回到大钟前，开启密码盒，如图所示，打开盒子里的怀表，调整齿轮的位置，提示时间***”07：45“***。
 
-![pwd](/assets/images/samsara/pwdbox.jpg)
+  ![pwd](/assets/images/samsara/pwdbox.jpg)
 
-![watch](/assets/images/samsara/watch.jpg)
+  ![watch](/assets/images/samsara/watch.jpg)
 
 3. 点击大钟上的猫头鹰，按书中提示的方向，调整猫头鹰的头，朝右，朝前，朝左，朝前，朝后。注意猫头鹰的头不能360°转，别把猫头鹰的脖子拧断了。得到**羽毛**。
 
@@ -210,7 +210,7 @@ tags:
 
 1. 点击镜子，发现主角变成了虾头人，”我不喜欢虾“，并在镜子上流下一滴泪，得到**水**。
 
-![shrimpman](/assets/images/samsara/shrimpman.jpg)
+  ![shrimpman](/assets/images/samsara/shrimpman.jpg)
 
 2. 右转，点击盒子，里面有一堆柴火，拿出**火柴**点燃，得到**火**。右边点击花盆，得到**土**。
 
@@ -226,7 +226,7 @@ tags:
 
 8. 左转，把大虾的头剥了，发现是喝下长生药死去的威廉姆斯。用**瓶子**点击他的头部，装下他嘴里的长生不老药。
 
-![shrimp](/assets/images/samsara/shrimp.jpg)
+  ![shrimp](/assets/images/samsara/shrimp.jpg)
 
 9. 回到炼金台，摆上**四元素**，和**长生不老药**，通关隐藏关卡。
 
