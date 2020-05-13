@@ -10,10 +10,10 @@ tags:
 ---
 记录一次在Ubuntu18.04系统安装PaddlePaddle的过程经历。
 
-### Ubuntu18.04 安装PaddlePaddle
-----
+# Ubuntu18.04 安装PaddlePaddle
 
-#### 环境配置
+
+## 环境配置
 
 1.首先确认依赖项的安装，根据Paddle官方页面给出的信息，Ubuntu18.04只支持CUDA10.0/10.1（不支持CUDA10.2）
 
@@ -108,10 +108,9 @@ tags:
 
     如果在import时提示`Compiled with WITH_GPU, but no GPU found in runtime.`，很有可能是安装完CUDA和cudnn后没有重启，重启过后即可成功验证
 
-### PaddleSeg配置实践
-----
+## PaddleSeg配置实践
 
-#### 安装下载
+### 安装下载
 
 - PaddlePaddle安装 https://www.paddlepaddle.org.cn/install/quick
 
