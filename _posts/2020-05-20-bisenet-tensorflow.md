@@ -116,6 +116,8 @@ Github推荐的测试环境：
 
 注：经实际验证，在Ubuntu18.04+CUDA10.2+TensorRT1.14.0(1.12.0同样)下，运行Github上的test程序会报错运行失败，因此安装按作者的测试环境，重新安装CUDA9.0，步骤同上。
 
+若安装时提示`using unsupported comilper`，可能是因为GCC的版本不是CUDA9.0要求的版本（可能比较高），在`sudo sh cuda_9.0.176_384.81_linux.run`后面加上`--override`即可忽略这个问题。
+
 
 
 ## 安装TensorFlow
