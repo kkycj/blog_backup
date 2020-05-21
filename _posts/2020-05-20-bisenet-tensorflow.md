@@ -90,50 +90,58 @@ Github推荐的测试环境：
 
     全部完成后，重启系统。此时系统是无显驱的状态，分辨率会变得很低。
 
-3. 安装CUDA 10.2的新驱动。
+    > 3. 安装CUDA 10.2的新驱动。
+    >
+    > ```
+    > wget http://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
+    > sudo sh cuda_10.2.89_440.33.01_linux.run
+    > ```
+    >
+    > 因为卸载了驱动，所以选项全选，驱动和CUDA Toolkit全都安装。
+    >
+    > 4. 安装cudnn
+    >
+    >     cudnn[文件下载](https://developer.nvidia.com/rdp/cudnn-download)，选择压缩包文件，解压到cuda文件夹下：
+    >
+    >     ```
+    >     sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
+    >     sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/
+    >     sudo chmod a+r /usr/local/cuda/include/cudnn.h
+    >     sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
+    >     ```
+    >
+    >     注：如果多版本共存的情况下，可以把各个版本相对应的cudnn解压到cuda-10.1或者10.2下，切换版本时，只需要更改根目录下.bashrc中的cuda路径设置即可。
+    >
+    >     
 
-    ```
-    wget http://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
-    sudo sh cuda_10.2.89_440.33.01_linux.run
-    ```
+注：经实际验证，在Ubuntu18.04+CUDA10.2+TensorRT1.14.0(1.12.0同样)下，运行Github上的test程序会报错运行失败，因此安装按作者的测试环境，重新安装CUDA9.0，步骤同上。
 
-    因为卸载了驱动，所以选项全选，驱动和CUDA Toolkit全都安装。
 
-4. 安装cudnn
-
-    cudnn[文件下载](https://developer.nvidia.com/rdp/cudnn-download)，选择压缩包文件，解压到cuda文件夹下：
-
-    ```
-    sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
-    sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/
-    sudo chmod a+r /usr/local/cuda/include/cudnn.h
-    sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
-    ```
-
-    注：如果多版本共存的情况下，可以把各个版本相对应的cudnn解压到cuda-10.1或者10.2下，切换版本时，只需要更改根目录下.bashrc中的cuda路径设置即可。
-
-    
 
 ## 安装TensorFlow
 
-~~通过pip安装TensorFlow，因为TensorRT要求为7.0.0.11，此版本要求TensorFlow1.14.0，如果pip安装不指定版本，会自动安装最新版本2.x，并不兼容TensorRT，因此需要指定TensorFlow的版本。~~
+> 通过pip安装TensorFlow，因为TensorRT要求为7.0.0.11，此版本要求TensorFlow1.14.0，如果pip安装不指定版本，会自动安装最新版本2.x，并不兼容TensorRT，因此需要指定TensorFlow的版本。
+>
+> ```
+> pip3 install tensorflow-gpu==1.14.0 (x)
+> pip3 install tensorflow-gpu==1.12.0
+> ```
+>
+> 检验TensorFlow是否安装成功
+>
+> ```
+> python3
+> >>> import tensorflow as tf
+> >>> tf.__version__
+> '1.14.0' (x)
+> '1.12.0'
+> ```
+>
+> 如果输出1.14.0则说明安装成功。
 
-```
-pip3 install tensorflow-gpu==1.14.0 (x)
-```
-
-检验TensorFlow是否安装成功
-
-```
-python3
->>> import tensorflow as tf
->>> tf.__version__
-'1.14.0'
-```
-
-如果输出1.14.0则说明安装成功。
 
 
+注：测试时由于CUDA版本的问题，换回CUDA9.0的同时也按作者的测试环境重新安装了1.12.0版本的TensorFlow。
 
 ## 安装TensorRT
 
