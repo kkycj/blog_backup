@@ -35,3 +35,8 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # theme
 gem "jekyll-theme-basically-basic"
+
+# security update
+gem "activesupport", ">= 6.0.3.1"
+
+
