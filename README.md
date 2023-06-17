@@ -1,4 +1,4 @@
-# newrowone.github.io
+# kkycj.github.io
 NewRowOne's Blog
 
-newrowone.github.io
+kkycj.github.io
