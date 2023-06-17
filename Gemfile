@@ -40,3 +40,5 @@ gem "jekyll-theme-basically-basic"
 gem "activesupport", ">= 6.0.3.1"
 
 
+
+gem "webrick", "~> 1.8"
