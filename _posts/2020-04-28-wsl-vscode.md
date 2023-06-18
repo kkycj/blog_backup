@@ -20,7 +20,7 @@ tags:
 
     并且打开VS Code，在扩展插件中安装Remote - WSL
 
-    ![remote-wsl](/assets/images/2020-04-28-wsl-vscode/remote-wsl.png)
+    ![remote-wsl](/assets/img/2020-04-28-wsl-vscode/remote-wsl.png)
 
 - 然后进入WSL系统，在终端输入
 
@@ -32,7 +32,7 @@ tags:
 
     解压完毕后，会从Win10的窗口打开VS Code，并在右下角显示WSL: Ubuntu-18.04
 
-    ![wsl-corner](/assets/images/2020-04-28-wsl-vscode/wsl-corner.png)
+    ![wsl-corner](/assets/img/2020-04-28-wsl-vscode/wsl-corner.png)
 
     之后便可以直接访问子系统下的目录，进行操作了
 
@@ -40,7 +40,7 @@ tags:
 
 - 首先在VS Code中安装GitHub扩展插件
 
-    ![github-ext](/assets/images/2020-04-28-wsl-vscode/github-ext.png)
+    ![github-ext](/assets/img/2020-04-28-wsl-vscode/github-ext.png)
 
 - 如果没有在git中修改过全局的用户信息，进入WSL的终端界面
 
@@ -55,10 +55,10 @@ tags:
 
     - 也可以通过`ctrl+shift+p`调出VS Code的控制台，输入commit搜索，选择commit all命令
 
-        ![vscode-commit](/assets/images/2020-04-28-wsl-vscode/vscode-commit.png)
+        ![vscode-commit](/assets/img/2020-04-28-wsl-vscode/vscode-commit.png)
 
     - 添加完commit后，左下角的同步按钮会显示有一条可上传的变化，点击后，在控制台输入GitHub的账号密码，即可将修改后的内容push到对应的分支上
-        ![sync-corner](/assets/images/2020-04-28-wsl-vscode/sync-corner.png)
+        ![sync-corner](/assets/img/2020-04-28-wsl-vscode/sync-corner.png)
 
 #### 注意
 
